@@ -2,6 +2,10 @@
 
 Elevator service key - used to enable various modes, like VIP/Priority ride, etc.
 
+
+![Kone 1V14001](kone-1v14001.jpg "Kone 1V14001")
+
+
 Bitting - based on photo pixel measurement (attached photos scraped from various online shops).
 Measurements from bottom of the key (Instacode style). 
 Based on [GAM](../../blanks/GAM) blank.
