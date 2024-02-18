@@ -1,5 +1,5 @@
 # 3DLocksmith
-3D Printable keys, blanks, lock-picks and other stuff for 3D printing keys.
+3D Printable keys, blanks, lock-picks and other printable stuff.
 
 ### Available blanks
 
