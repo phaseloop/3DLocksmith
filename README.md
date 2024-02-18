@@ -84,6 +84,8 @@ Cooling tower STL should be attached to most of tubular key designs in this repo
 
 ![Using cooling tower](docs/images/tubular-key-and-cooling-tower.JPG "Using cooling tower")
 
+Using cooling tower with printed key.
+
 
 ### Regular keys
 
