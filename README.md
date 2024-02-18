@@ -48,7 +48,7 @@ Below are recommended values tested by us.
 |  Print acceleration   |      200 mm/s2       |                                        |
 | Bottom layers  |  999999 | Disables infill. 100% infill setting have side effects and is not recommended. |
 |  Enable print cooling   |      yes       |                                        |
-|  Fan speed   |      100% mm/s       |                                        |
+|  Fan speed   |      100%        |                                        |
 |  Minimum layer time   |      10 s       |          It slows your print to allow layer to cool properly                              |
                                    |
 
