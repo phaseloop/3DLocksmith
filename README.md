@@ -7,8 +7,9 @@
 
 ### Available service keys
 
-- Kone 1V14001
-- Kone 58989
+- Kone 1V14001 (elevator "VIP" key)
+- Kone 58989 (elevator computer box)
+- TSA "Travel sentry" master keys
 
 ### 3D printing keys - tutorial
 
