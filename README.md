@@ -4,6 +4,7 @@
 ### Available blanks
 
 - GAM (Gerda)
+- Kwikset KW1
 
 ### Available service keys
 
@@ -51,7 +52,7 @@ Below are recommended values tested by us.
 |  Enable print cooling   |      yes       |                                        |
 |  Fan speed   |      100%        |                                        |
 |  Minimum layer time   |      10 s       |          It slows your print to allow layer to cool properly                              |
-                                   |
+
 
 
 #### Dimensioning problems
@@ -65,7 +66,12 @@ If your printed keys have small dimenstional problems (too big or too small):
 
 ### 3D tubular keys
 
-Tubular keys are difficult to print and use - elements around bitting are to small and fragile in printed keys and they tend to break even before you try to use the key. 
+***Attention! If your printed tubular key is slightly too large - play with `Horizontal Expansion` and `Hole Horizontal Expansion` setting in your slicer.***
+https://all3dp.com/2/cura-horizontal-expansion-explained/
+
+
+
+Tubular keys are difficult to print and use - walls around bitting are to thin and fragile in printed keys and they tend to break even before you try to use the key. 
 
 Fortunately there is a great way to overcome this problem. We can just re-design tubular key to make it both work in a lock and be easier to print.
 
