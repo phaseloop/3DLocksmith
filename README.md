@@ -3,14 +3,15 @@
 
 ### Available blanks
 
-- GAM (Gerda)
-- Kwikset KW1
+- [GAM (Gerda)](./blanks/GAM/)
+- [Kwikset KW1](./blanks/Kwikset%20KW1/)
 
 ### Available service keys
 
-- Kone 1V14001 (elevator "VIP" key)
-- Kone 58989 (elevator computer box)
-- TSA "Travel sentry" master keys
+- [CH751](./service_keys/CH751/)
+- [Kone 1V14001 (elevator "VIP" key)](./service_keys/Kone%201V14001/)
+- [Kone 58989 (elevator computer box)](./service_keys/Kone%2058989/)
+- [TSA "Travel sentry" master keys](./service_keys/TSA%20Master%20keys/)
 
 ### 3D printing keys - tutorial
 
@@ -57,18 +58,16 @@ Below are recommended values tested by us.
 
 #### Dimensioning problems
 
-If your printed keys have small dimenstional problems (too big or too small):
+3D printed objects are often not dimensionally accurate when dealing with sub-millimeter precision - which is mostly a problem when printing tubular keys. There are several ways to improve your print accuracy:
 
 - Calibrate your printer X/Y/Z steps and extrusion. There is a ton of tutorials on it on youtube.
 - Try enabling Wall Ordering = Outside to Inside to improve accuracy. Note that this may break prints which have overhangs.
-- Play with "Horizontal Expansion" value in your slicer, especially First Layer Horizontal Expansion.
+- Play with `Horizontal Expansion` and `Hole Horizontal Expansion` value in your slicer to slightly modify your print dimensions.
 
 
-### 3D tubular keys
+### Tubular keys
 
-***Attention! If your printed tubular key is slightly too large - play with `Horizontal Expansion` and `Hole Horizontal Expansion` setting in your slicer.***
-https://all3dp.com/2/cura-horizontal-expansion-explained/
-
+***Attention! Printing tubular keys success depends strongly on print dimensional accuracy in your printer. See "Dimensioning problems" paragraph.***
 
 
 Tubular keys are difficult to print and use - walls around bitting are to thin and fragile in printed keys and they tend to break even before you try to use the key. 
@@ -87,7 +86,7 @@ Non optimized key contains thin walls which can be skipped by slicer or do not p
 With tubular keys - print cooling becomes a problem. Key is small and even with fans blowing at 100%, each layer is not being cooled properly before another layer starts. This results in filament dripping, layers bending upwards and hitting the nozzle, etc. Solution to this problem is printing another, larger object next to the key so printer spends more time on each layer.
 One of such object is so called "cooling tower" which is just a hollow cylinder which uses small amount of filament.
 
-Cooling tower STL should be attached to most of tubular key designs in this repository.
+Cooling tower STL should be attached to most of tubular key designs in this repository. This design have thick walls on purpose - so the tower is sliced properly even when using `Horizontal Expansion` settings.
 
 ![Using cooling tower](docs/images/tubular-key-and-cooling-tower.JPG "Using cooling tower")
 
