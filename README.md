@@ -19,7 +19,7 @@ Most keys have complicated shapes and precise bitting. They are designed to be c
 
 Precise printing is a domain of resin printers (SLA) - you've probably seen tiny and detailed figurines created on those.
 
-While SLA printers are cheaper than most FDM (filament) printers, they are much harder to use - resin vapours are toxic and require proper ventilattion and protection equipment (mask, gloves, etc). In the long run - resin is also more expensive than regular filament.
+While SLA printers are cheaper than most FDM (filament) printers, they are much harder to use - resin vapours are toxic and require proper ventilattion and protection equipment (mask, gloves, etc). In the long run - resin is also more expensive than regular filament and more brittle (unless you buy high-strength resin).
 
 Don't worry though - FDM printers are precise enough for many keys to work fine. For other keys - we can use multiple hacks to make printer more precise or redesign the keys so they are easier to print but still open a lock.
 
@@ -49,10 +49,17 @@ Below are recommended values tested by us.
 | Layer Height   |    0.1 mm          | If your prints warp - add brim         |  
 |  Print speed   |      30 mm/s       |                                        |
 |  Print acceleration   |      200 mm/s2       |                                        |
-| Bottom layers  |  999999 | Disables infill. 100% infill setting have side effects and is not recommended. |
+| Bottom layers  |  999999 | Disables infill. 100% infill setting have side effects and is not recommended for keys. |
 |  Enable print cooling   |      yes       |                                        |
 |  Fan speed   |      100%        |                                        |
 |  Minimum layer time   |      10 s       |          It slows your print to allow layer to cool properly                              |
+|  Generate support   |      True       |          Use supports for double-sided keys                              |
+|  Support structure   |      Normal       |       Tree or unusual support modes may not work good on small elements                              |
+|  Support Z Distance   |      0.1 mm       |          Ideally same as your layer height                              |
+|  Support X/Y distance   |      0.5 mm - 1mm       |          Critical setting here! Use 0.5 mm on mailbox and other small keys                              |
+|  Enable support interface   |      True       |                                      |
+|  Support interface density   |      30%       |          Make print lines sag less and support removal is easier                              |
+
 
 
 
@@ -92,12 +99,18 @@ Cooling tower STL should be attached to most of tubular key designs in this repo
 
 Using cooling tower with printed key.
 
+#### Strain considerations
 
-### Regular keys
+Some tubular locks key holes do not have regular concentric gap due to internal spring pressure (and low quality probably). It takes some force to insert the key and align the center of the lock properly. While this is hardly a problem with metal keys, it becomes one with 3D printed keys as the higher than usual strain on the key may snap its smaller parts on top.
 
-Regular keys are usually fine to print, but in most cases you need to add a brim in your slicer. 
+Dimensional strength of 3D printed parts depends on layer lines direction, tubular key can be make less prone to snapping by printing it at 45 degrees so layer lines do not align with force working on a key.
 
-Some print optimized keys in this repository may have parts that hang slightly above the print bed but they are small and are not marked properly by Cura in red color. This results in parts of the key "sagging" and printed bad. Rotate the key, so it touches the bed with the other side and you should be fine.
+
+### Single sided keys
+
+Regular single sided keys are usually simple to print, but in most cases you need to add a brim in your slicer. 
+
+Some print optimized keys in this repository may have parts that hang slightly above the print bed but they are small and are not marked properly by Cura in red color. This results in parts of the key "sagging" and printed improperly. Rotate the key, so it touches the bed with the other side and you should be fine.
 
 ![Part not touching buildplate](docs/images/key-not-touching-printer_bed.JPG "Part not touching buildplate")
 
