@@ -5,12 +5,15 @@
 
 - [GAM (Gerda)](./blanks/GAM/)
 - [Kwikset KW1](./blanks/Kwikset%20KW1/)
+- [Eurolocks](./blanks/Eurolocks-large)
 
 ### Available service keys
 
 - [CH751](./service_keys/CH751/)
+- [EMKA 1333 (bitting diagram only)](./service_keys/EMKA%201333/)
+- [Eurolocks 9081](./service_keys/EuroLocks%209081/)
 - [Kone 1V14001 (elevator "VIP" key)](./service_keys/Kone%201V14001/)
-- [Kone 58989 (elevator computer box)](./service_keys/Kone%2058989/)
+- [Kone 58989 (tubular - elevator computer box)](./service_keys/Kone%2058989/)
 - [TSA "Travel sentry" master keys](./service_keys/TSA%20Master%20keys/)
 
 ### 3D printing keys - tutorial
