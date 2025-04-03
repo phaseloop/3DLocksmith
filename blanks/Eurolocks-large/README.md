@@ -1,28 +1,35 @@
 Eurolocks key blank.
 Also known as:
 
-- LF-29D
+- Borkey 1415
+- CEA LF25 
+- Contico / Delta C001-C100
 - Curtis LF-25
-- LF25 
+- Errebi LF25R
+- Ezy Cut C209R
+- HD LF43
+- Heracles HR25
 - Ilco 1527 
+- Ilco 209R
 - JMA LF-29D
-- LF29D
-- Original D8777
-- Lowe & Fletcher D8777
-- Orion LF45L
-- Silca LF23R
-- Lowe & Fletcher 9000 Series
+- JMA LF29D
+- Keyline LF23R
+- Keyline LF23R
+- Kraga U263
 - L&F Eurolock 9000 Series
+- LF-29D
+- LF29D
+- Lotus ERS1
+- Lowe & Fletcher 9000 Series
+- Lowe & Fletcher D8777
+- National / Snap-On Y001-Y500
+- National 8777
+- National D8777
 - National HD001-HD100
 - National SK001-SK728
 - National VF101-VF110
-- National / Snap-On Y001-Y500
-- Contico / Delta C001-C100
-- Borkey 1415
-- Ezy Cut C209R
-- Heracles HR25
-- Keyline LF23R
-- Kraga U263
-- Lotus ERS1
+- Original D8777
+- Orion LF45L
 - RR LF72
+- Silca LF23R
 
