@@ -21,8 +21,11 @@ See 3D lock templates for ready to print files.
 
 | Code name  | File  | Image  |  
 |---|---|---|
-| SS1  | SS1.svg  | ![SS1](images/SS1.png)   |
-| SS2  | SS2.svg  | ![SS2](images/SS2.png)   |
-| SS16  | SS16.svg  | ![SS16](images/SS16.png)   |
+| SS1  | [slim_shank/SS1.svg](slim_shank/SS1.svg)  | ![SS1](images/SS1.png)   |
+| SS2  | [slim_shank/SS2.svg](slim_shank/SS2.svg)  | ![SS2](images/SS2.png)   |
+| SS3  | [slim_shank/SS3.svg](slim_shank/SS3.svg)  | ![SS3](images/SS3.png)   |
+| SS4  | [slim_shank/SS4.svg](slim_shank/SS4.svg)  | ![SS3](images/SS4.png)   |
+| SS5  | [slim_shank/SS5.svg](slim_shank/SS5.svg)  | ![SS3](images/SS5.png)   |
+| SS16  | [slim_shank/SS16.svg](slim_shank/SS16.svg)  | ![SS16](images/SS16.png)   |
 |   |   |   |
 |   |   |   |

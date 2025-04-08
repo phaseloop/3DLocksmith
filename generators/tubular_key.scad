@@ -3,8 +3,6 @@
 
 // Modified by 3DLocksmith project for ACE-type bitting
 
-// Set web_thickness = 0 in the code to go back to regular, non print-optimized
-// key design
 
 
 // Detail level
@@ -25,9 +23,9 @@ tensioner_thickness = 1.3;
 // Length of the main tube
 tube_length = 13;
 // Outer diameter of the main tube
-tube_OD = 9.2;
+tube_OD = 9.30;
 // Inner diameter of the main tube
-tube_ID = 7.8;
+tube_ID = 7.7;
 // Depth of the main tube
 tube_depth = 10;
 
